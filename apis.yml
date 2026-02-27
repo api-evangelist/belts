@@ -1,0 +1,87 @@
+name: Belts API
+description: A comprehensive API for managing belt products, specifications, and inventory
+image: https://example.com/belts-api-logo.png
+url: https://api.belts.example.com
+created: '2024-01-15'
+modified: '2024-01-15'
+apis:
+- name: Belts Catalog API
+  description: Access and manage belt product catalog including materials, sizes, and styles
+  image: https://example.com/catalog-icon.png
+  humanUrl: https://belts.example.com/catalog
+  baseUrl: https://api.belts.example.com/v1/catalog
+  tags:
+  - belts
+  - catalog
+  - products
+  - retail
+  - fashion
+  properties:
+  - type: Documentation
+    url: https://docs.belts.example.com/catalog
+  - type: OpenAPI
+    url: https://api.belts.example.com/v1/catalog/openapi.json
+  - type: Swagger
+    url: https://api.belts.example.com/v1/catalog/swagger.json
+  contact:
+  - type: Email
+    url: mailto:api-support@belts.example.com
+  - type: Support
+    url: https://support.belts.example.com
+- name: Belts Inventory API
+  description: Real-time inventory management for belt stock levels and warehouse locations
+  image: https://example.com/inventory-icon.png
+  humanUrl: https://belts.example.com/inventory
+  baseUrl: https://api.belts.example.com/v1/inventory
+  tags:
+  - inventory
+  - stock
+  - warehouse
+  - supply-chain
+  properties:
+  - type: Documentation
+    url: https://docs.belts.example.com/inventory
+  - type: OpenAPI
+    url: https://api.belts.example.com/v1/inventory/openapi.json
+  contact:
+  - type: Email
+    url: mailto:inventory@belts.example.com
+- name: Belts Sizing API
+  description: Belt sizing calculator and conversion tools for different measurement systems
+  image: https://example.com/sizing-icon.png
+  humanUrl: https://belts.example.com/sizing
+  baseUrl: https://api.belts.example.com/v1/sizing
+  tags:
+  - sizing
+  - measurements
+  - conversion
+  - fit
+  properties:
+  - type: Documentation
+    url: https://docs.belts.example.com/sizing
+  - type: OpenAPI
+    url: https://api.belts.example.com/v1/sizing/openapi.json
+maintainers:
+- name: Belts API Team
+  email: api-team@belts.example.com
+  url: https://belts.example.com/team
+tags:
+- belts
+- fashion
+- accessories
+- retail
+- ecommerce
+include: []
+common:
+- type: Authentication
+  url: https://docs.belts.example.com/authentication
+- type: Rate Limits
+  url: https://docs.belts.example.com/rate-limits
+- type: Terms of Service
+  url: https://belts.example.com/terms
+- type: Privacy Policy
+  url: https://belts.example.com/privacy
+- type: Status Page
+  url: https://status.belts.example.com
+- type: Pricing
+  url: https://belts.example.com/pricing
