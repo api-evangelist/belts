@@ -6,9 +6,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Accessories
   - Belts
   - Fashion
-  - Accessories
   - Retail
 url: https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/apis.yml
 created: '2024-01-15'
