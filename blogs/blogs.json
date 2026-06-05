@@ -1,0 +1,14 @@
+{
+  "repo": "belts",
+  "feeds": [
+    {
+      "source": "https://cemanet.org",
+      "feed_url": "https://cemanet.org/feed/",
+      "title": "CEMA - Conveyor Equipment Manufacturers Association",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

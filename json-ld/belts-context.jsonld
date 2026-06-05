@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "belts": "https://api-evangelist.github.io/belts/vocab#",
+
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "sameAs": "schema:sameAs",
+
+    "ConveyorBelt": {
+      "@id": "belts:ConveyorBelt",
+      "@type": "@id"
+    },
+    "BeltSystem": {
+      "@id": "belts:BeltSystem",
+      "@type": "@id"
+    },
+    "BeltSensor": {
+      "@id": "belts:BeltSensor",
+      "@type": "@id"
+    },
+    "MaintenanceAlert": {
+      "@id": "belts:MaintenanceAlert",
+      "@type": "@id"
+    },
+    "BeltStandard": {
+      "@id": "belts:BeltStandard",
+      "@type": "@id"
+    },
+
+    "tension": {
+      "@id": "belts:tension",
+      "@type": "qudt:QuantityValue"
+    },
+    "speed": {
+      "@id": "belts:speed",
+      "@type": "qudt:QuantityValue"
+    },
+    "temperature": {
+      "@id": "belts:temperature",
+      "@type": "qudt:QuantityValue"
+    },
+    "alignment": {
+      "@id": "belts:alignment"
+    },
+    "wear": {
+      "@id": "belts:wear"
+    },
+    "condition": {
+      "@id": "belts:condition"
+    },
+    "predictedFailureDate": {
+      "@id": "belts:predictedFailureDate",
+      "@type": "schema:Date"
+    },
+    "maintenanceType": {
+      "@id": "belts:maintenanceType"
+    },
+    "standardNumber": {
+      "@id": "belts:standardNumber"
+    },
+    "issuingBody": {
+      "@id": "belts:issuingBody"
+    },
+    "material": {
+      "@id": "schema:material"
+    },
+    "manufacturer": {
+      "@id": "schema:manufacturer"
+    },
+    "serialNumber": {
+      "@id": "schema:serialNumber"
+    },
+    "location": {
+      "@id": "schema:location"
+    },
+    "operationalStatus": {
+      "@id": "belts:operationalStatus"
+    },
+    "protocol": {
+      "@id": "belts:protocol"
+    },
+
+    "CEMA": {
+      "@id": "schema:Organization",
+      "schema:name": "Conveyor Equipment Manufacturers Association",
+      "schema:url": "https://cemanet.org"
+    },
+    "ANSI": {
+      "@id": "schema:Organization",
+      "schema:name": "American National Standards Institute",
+      "schema:url": "https://ansi.org"
+    }
+  }
+}

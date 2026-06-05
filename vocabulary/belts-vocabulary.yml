@@ -1,0 +1,166 @@
+vocabulary:
+  name: Belts Industrial Vocabulary
+  description: >-
+    Key terms and concepts for conveyor belts, industrial belt systems,
+    condition monitoring, predictive maintenance, and the standards that
+    govern belt conveyor design and safety across mining, manufacturing,
+    food processing, and bulk material handling industries.
+  version: "1.0.0"
+  terms:
+
+    - term: ConveyorBelt
+      definition: >-
+        A continuous loop of material (fabric, rubber, steel cord, or
+        thermoplastic) stretched between two or more pulleys to transport
+        bulk materials or unit loads over a fixed path in industrial settings.
+      tags:
+        - equipment
+        - bulk-material-handling
+        - conveyor
+
+    - term: BeltTension
+      definition: >-
+        The tensile force acting along the length of a conveyor belt,
+        measured in Newtons or pounds-force. Proper tension is critical
+        for preventing belt slip, sag, and premature wear.
+      tags:
+        - condition-monitoring
+        - mechanical
+        - sensor
+
+    - term: BeltSpeed
+      definition: >-
+        The linear velocity at which the conveyor belt surface travels,
+        typically expressed in meters per second or feet per minute.
+        Speed is monitored by tachometers or encoder sensors.
+      tags:
+        - condition-monitoring
+        - mechanical
+        - sensor
+
+    - term: BeltAlignment
+      definition: >-
+        The lateral position of the belt relative to the conveyor frame
+        centerline. Misalignment causes edge wear, spillage, and structural
+        damage; monitored via proximity sensors or drift switches.
+      tags:
+        - condition-monitoring
+        - maintenance
+        - sensor
+
+    - term: PredictiveMaintenance
+      definition: >-
+        A maintenance strategy that uses real-time sensor data and machine
+        learning models to forecast belt component failures before they occur,
+        enabling scheduled intervention and avoiding unplanned downtime.
+      tags:
+        - predictive-maintenance
+        - IIoT
+        - analytics
+
+    - term: ConditionMonitoring
+      definition: >-
+        Continuous or periodic measurement of conveyor belt health parameters
+        (tension, speed, temperature, vibration, wear) to assess current
+        operating condition and detect anomalies early.
+      tags:
+        - condition-monitoring
+        - IIoT
+        - sensors
+
+    - term: BeltWear
+      definition: >-
+        Degradation of the belt cover or carcass caused by abrasion,
+        impact, chemical exposure, or fatigue. Wear depth is measured
+        ultrasonically or optically and compared against minimum thickness
+        thresholds to schedule replacement.
+      tags:
+        - condition-monitoring
+        - maintenance
+        - degradation
+
+    - term: CEMA
+      definition: >-
+        Conveyor Equipment Manufacturers Association — the primary North
+        American trade body that publishes engineering standards (e.g.,
+        ANSI/CEMA No. 402) covering design, application, and safety of
+        belt conveyor systems.
+      tags:
+        - standards
+        - industry-body
+        - organization
+
+    - term: OPCUA
+      definition: >-
+        OPC Unified Architecture — the IEC 62541 standard for secure,
+        platform-independent data exchange between conveyor belt controllers,
+        SCADA systems, and enterprise applications in industrial environments.
+      tags:
+        - protocol
+        - integration
+        - IIoT
+
+    - term: MQTT
+      definition: >-
+        Message Queuing Telemetry Transport — a lightweight publish-subscribe
+        messaging protocol used for streaming conveyor belt IoT sensor data
+        from edge devices to cloud monitoring and analytics platforms.
+      tags:
+        - protocol
+        - integration
+        - IIoT
+
+    - term: SCADA
+      definition: >-
+        Supervisory Control and Data Acquisition — industrial control system
+        that collects real-time data from conveyor belt PLCs and sensors,
+        provides operational visibility, and enables remote control of belt
+        systems across a facility.
+      tags:
+        - integration
+        - control-system
+        - industrial-automation
+
+    - term: CMMS
+      definition: >-
+        Computerized Maintenance Management System — software platform that
+        receives predictive maintenance alerts from belt monitoring systems
+        and automatically generates, schedules, and tracks maintenance work
+        orders.
+      tags:
+        - maintenance
+        - integration
+        - enterprise-software
+
+    - term: BulkMaterialHandling
+      definition: >-
+        The engineering discipline concerned with the design, selection,
+        and operation of equipment (including conveyor belts) for moving
+        large quantities of raw or processed materials such as coal, ore,
+        grain, and aggregates in industrial and mining operations.
+      tags:
+        - industry
+        - mining
+        - manufacturing
+
+    - term: IdlerRoller
+      definition: >-
+        A cylindrical roller mounted on the conveyor frame that supports the
+        belt and carried load. Idler health (bearing temperature, rotation
+        speed, vibration) is a common monitored parameter for predictive
+        maintenance.
+      tags:
+        - equipment
+        - maintenance
+        - mechanical
+
+    - term: BeltSplice
+      definition: >-
+        The joint connecting the two ends of a conveyor belt to form a
+        continuous loop. Splice integrity is monitored via embedded sensors
+        or periodic inspection and is a common failure point requiring
+        maintenance attention.
+      tags:
+        - equipment
+        - maintenance
+        - mechanical
