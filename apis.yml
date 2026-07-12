@@ -27,6 +27,8 @@ tags:
   - Sensors
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/belts-domain-security.yml
   - type: Website
     url: https://cemanet.org
     title: CEMA - Conveyor Equipment Manufacturers Association

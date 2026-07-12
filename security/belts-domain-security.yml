@@ -1,0 +1,28 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: cemanet.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 27 13:36:09 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: webstore.ansi.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 20 20:13:06 2026 GMT
+  hsts: null
+domains:
+- domain: cemanet.org
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: ansi.org
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
