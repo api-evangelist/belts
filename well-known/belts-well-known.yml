@@ -1,0 +1,146 @@
+generated: '2026-09-19'
+method: probed
+source: live GET of each /.well-known/* path on every host apis.yml names (Website + Documentation hosts); Belts is a topic index with no API entries, so there is no API, docs-console or MCP host to probe
+note: >-
+  Every path missed. cemanet.org and www.cemanet.org answer 403 with a WAF block page
+  (text/html) for every /.well-known/* path; ansi.org, www.ansi.org and webstore.ansi.org
+  sit behind a Cloudflare "Just a moment" JS challenge (403, text/html) on every path, so
+  the absence there is a bot-challenge finding rather than a confirmed 404. No document was
+  served on any host, so NO WellKnown / SecurityTxt pointer is wired in apis.yml — this file
+  records a probe, not a presence.
+hosts:
+- host: cemanet.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+    note: WAF block page (text/html), not a document
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: www.cemanet.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+    note: WAF block page (text/html), not a document
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: ansi.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+    note: Cloudflare JS challenge ("Just a moment..."), bot-challenged rather than confirmed absent
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: www.ansi.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+    note: Cloudflare JS challenge ("Just a moment..."), bot-challenged rather than confirmed absent
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: webstore.ansi.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+    note: Cloudflare JS challenge ("Just a moment..."), bot-challenged rather than confirmed absent
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null

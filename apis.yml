@@ -24,8 +24,9 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 created: '2024-01-15'
-modified: '2026-04-19'
+modified: '2026-09-19'
 type: Index
+x-type: index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/belts.png
 specificationVersion: '0.23'
 description: >-
@@ -58,8 +59,11 @@ common:
     url: https://webstore.ansi.org/industry/conveyors/belt-standards
     title: ANSI Conveyor Belt Standards
   - type: Documentation
-    url: https://cemanet.org/resources/publications/
-    title: CEMA Publications and Standards
+    url: https://cemanet.org/technical-resources/
+    title: CEMA Technical Resources
+  - type: Documentation
+    url: https://cemanet.org/ansi-standards/
+    title: CEMA ANSI Standards
   - type: Features
     data:
       - name: Conveyor Belt Standards
@@ -137,3 +141,33 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-19'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    "Belts" is a topical index of the conveyor-belt ecosystem, not a company: apis[] is
+    empty and the only hosts the record names belong to the standards bodies it cites
+    (CEMA at cemanet.org, ANSI at ansi.org), neither of which publishes a developer
+    program or a machine-readable contract - cemanet.org 404s /openapi.json, /swagger.json,
+    /api-docs and /llms.txt and WAF-403s every /.well-known/* path (its only 200 JSON is
+    WordPress's own /wp-json/ platform surface), and every ansi.org host answers a Cloudflare
+    JS challenge (403) for every path probed.
+  evidence:
+    - url: https://cemanet.org/
+      status: 200
+    - url: https://cemanet.org/openapi.json
+      status: 404
+    - url: https://cemanet.org/llms.txt
+      status: 404
+    - url: https://cemanet.org/.well-known/agent-card.json
+      status: 403
+    - url: https://webstore.ansi.org/industry/conveyors/belt-standards
+      status: 403
+    - url: https://ansi.org/.well-known/api-catalog
+      status: 403
+  checked: '2026-09-19'
