@@ -1,5 +1,6 @@
 aid: belts
 name: Belts
+kind: topic
 url: https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/apis.yml
 deliveryModel:
   model: unknown
@@ -39,6 +40,16 @@ description: >-
   safety standards for belt conveyors used in mining, manufacturing, food
   processing, and bulk material handling industries.
 tags:
+  - Bulk Material Handling
+  - Condition Monitoring
+  - Conveyor Belts
+  - Industrial IoT
+  - Industrial Automation
+  - Manufacturing
+  - Mining
+  - Predictive Maintenance
+  - Sensors
+tags_raw:
   - Bulk Material Handling
   - Condition Monitoring
   - Conveyor Belts
