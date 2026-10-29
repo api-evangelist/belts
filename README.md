@@ -1,4 +1,4 @@
-# Belts (belts)
+# belts
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,65 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Belts covers the landscape of APIs, data standards, and digital resources
-related to conveyor belts and industrial belt systems. This topic encompasses
-conveyor belt monitoring and predictive maintenance APIs, industrial IoT sensor
-data for belt condition tracking, and the standards bodies that govern belt
-conveyor design and safety. Key organizations include CEMA (Conveyor Equipment
-Manufacturers Association) and ANSI, which define design, installation, and
-safety standards for belt conveyors used in mining, manufacturing, food
-processing, and bulk material handling industries.
+## belts on APIs.io
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/apis.yml)
+Everything profiled for belts is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/belts/](https://apis.io/providers/belts/)** — or go straight to one of the APIs or properties below.
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## API Evangelist rating
 
-## Tags:
+Not yet rated. See [apis.io/providers/belts/](https://apis.io/providers/belts/).
 
- - Bulk Material Handling, Condition Monitoring, Conveyor Belts, IIoT, Industrial Automation, Manufacturing, Mining, Predictive Maintenance, Sensors
+## How this profile is made
 
-## Timestamps
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-19
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for belts: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Common Properties
+## Open an issue
 
-- [CEMA - Conveyor Equipment Manufacturers Association](https://cemanet.org)
-- [ANSI Conveyor Belt Standards](https://webstore.ansi.org/industry/conveyors/belt-standards)
-- [CEMA Publications and Standards](https://cemanet.org/resources/publications/)
-
-## Features
-
-| Name | Description |
-|------|-------------|
-| Conveyor Belt Standards | CEMA and ANSI standards define over 1,500 terms for conveyors, conveyor systems, and allied equipment, covering design, installation, safety codes, dimensions, test methods, and performance characteristics for belt conveyors. |
-| Belt Condition Monitoring | Industrial IoT sensor systems monitor conveyor belt condition in real time, tracking parameters such as tension, speed, temperature, alignment, and wear to enable predictive maintenance and prevent unplanned downtime. |
-| CEMA Design Standards | ANSI/CEMA Standard No. 402 and related standards establish recommended design and application engineering practices for unit handling and bulk material belt conveyors in mining, food processing, and manufacturing. |
-| Industrial Sensor Integration | Conveyor belt monitoring systems integrate with industrial sensors via OPC UA, MQTT, and REST APIs to stream belt health data to SCADA, MES, and cloud analytics platforms. |
-| Predictive Maintenance APIs | Cloud-based predictive maintenance platforms offer APIs for ingesting conveyor belt sensor data, running ML-based failure prediction models, and generating maintenance work orders. |
-
-## Use Cases
-
-| Name | Description |
-|------|-------------|
-| Mining and Bulk Material Transport | Conveyor belt systems transport coal, ore, aggregates, and other bulk materials in mining operations, with API integrations for production monitoring and material tracking. |
-| Food Processing and Packaging | Food-grade conveyor belt systems in processing and packaging facilities require sanitation compliance tracking and production throughput monitoring via SCADA and MES integrations. |
-| Manufacturing Line Automation | Assembly line conveyor belts integrate with manufacturing execution systems and robotics via industrial protocols to coordinate production flow and quality inspection. |
-| Predictive Maintenance | IoT-enabled belt monitoring systems detect early signs of wear, misalignment, and overheating, triggering maintenance alerts and work orders through connected CMMS platforms. |
-| Logistics and Distribution | Sortation conveyors in warehouses and distribution centers integrate with warehouse management systems via API to route packages and track throughput. |
-
-## Integrations
-
-| Name | Description |
-|------|-------------|
-| OPC UA | OPC UA is the primary industrial interoperability standard for conveyor belt control systems, enabling real-time data exchange between belt controllers, SCADA, and enterprise systems. |
-| MQTT | MQTT protocol is used for lightweight sensor data streaming from conveyor belt IoT edge devices to cloud-based monitoring and analytics platforms. |
-| SCADA Systems | Supervisory Control and Data Acquisition (SCADA) systems integrate with conveyor belt PLCs and sensors to provide operational visibility and control across industrial facilities. |
-| CMMS Platforms | Computerized Maintenance Management Systems receive predictive maintenance alerts and automatically generate work orders when belt sensor data indicates approaching failure conditions. |
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/belts/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
